@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDMN Higher Lower</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="image-container">
+        <img src="Higher_Or_Lower_logo.png" alt="">
+    </div>
+
+    <div id="container" class="container">
+
+        <div class="box">
+            <div class="contain" id="left-container"></div>
+            <p id="left-text">9,000,000</p>
+        </div>
+
+        <div class="box">
+            <div class="contain" id="right-container"></div>
+            <p id="right-text">22,000,000</p>
+        </div>
+
+    </div>
+
+    <div id="button-container" class="button-container">
+        <button class="button higher-button" id="higher">Higher</button>
+        <button class="button lower-button" id="lower">Lower</button>
+    </div>
+
+    <div id="score-container" class="score-container">
+        <p id="score-text"></p>
+    </div>
+    
+    <div id="end-screen" class="hide">
+        <p id="end-screen-text" class="hide">Game over!</p>
+        <p id="end-score" class="hide"></p>
+        <button id="restart" class="hide">Restart</button>
+    </div>
+</body>
+</html>
